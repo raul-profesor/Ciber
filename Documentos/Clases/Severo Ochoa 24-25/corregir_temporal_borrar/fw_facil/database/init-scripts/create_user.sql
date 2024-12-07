@@ -1,0 +1,3 @@
+CREATE USER 'sad'@'%' IDENTIFIED BY 'cibersad';
+GRANT ALL PRIVILEGES ON *.* TO 'sad'@'%';
+FLUSH PRIVILEGES;
